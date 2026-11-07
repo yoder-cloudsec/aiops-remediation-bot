@@ -1,0 +1,11 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Keep .terraform.lock.hcl tracked!
+
+# Local binaries
+remediation-bot/functions/remediate/kubectl
